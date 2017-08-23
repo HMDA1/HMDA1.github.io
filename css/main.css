@@ -1073,7 +1073,7 @@ pre .javascript .function {
   bottom: 30px;
 }
 .header {
-  background: transparent;
+  background: url("../image/avatar.png");
 }
 .header-inner {
   position: relative;
@@ -1931,7 +1931,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffffa8;
+  background: #eba106;
 }
 .links-of-blogroll {
   font-size: 13px;
