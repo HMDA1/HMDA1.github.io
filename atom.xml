@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-08-23T11:24:01.322Z</updated>
+  <updated>2017-08-31T10:11:02.873Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My New Post</title>
+    <link href="http://yoursite.com/2017/08/31/My-New-Post/"/>
+    <id>http://yoursite.com/2017/08/31/My-New-Post/</id>
+    <published>2017-08-31T09:55:51.000Z</published>
+    <updated>2017-08-31T10:11:02.873Z</updated>
+    
+    <content type="html"><![CDATA[<p>Well, after a night of busyness, you go to bed at 12:00 p.m.Under the big trend, the postgraduate entrance examination has become popular.And the library has become the inevitable result.In the process of taking up the seat, there will be a variety of situations.For example, as far as I am concerned, 6 this morning arrived early and found that the book was cleared, which was very frustrating, so it was inevitable to look for the next place.B. After finding other places, he cleared away others’ books, which inevitably conflicts with others.When two people don’t agree with each other, it is the escalation of contradictions.It’s also because, many people, a lot of seats are occupied, so the seat is strained.To sum up, taking a seat is inevitable, but the study room is public and everyone is entitled to it.At the same time, it is the library that provides the resources to learn, so everyone wants a place.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Well, after a night of busyness, you go to bed at 12:00 p.m.Under the big trend, the postgraduate entrance examination has become popular
+    
+    </summary>
+    
+      <category term="t" scheme="http://yoursite.com/categories/t/"/>
+    
+    
+      <category term="English" scheme="http://yoursite.com/tags/English/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
