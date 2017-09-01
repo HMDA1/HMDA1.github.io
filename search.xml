@@ -5,14 +5,14 @@
     <url>%2F2017%2F08%2F31%2FMy-New-Post%2F</url>
     <content type="text"><![CDATA[Well, after a night of busyness, you go to bed at 12:00 p.m.Under the big trend, the postgraduate entrance examination has become popular.And the library has become the inevitable result.In the process of taking up the seat, there will be a variety of situations.For example, as far as I am concerned, 6 this morning arrived early and found that the book was cleared, which was very frustrating, so it was inevitable to look for the next place.B. After finding other places, he cleared away others’ books, which inevitably conflicts with others.When two people don’t agree with each other, it is the escalation of contradictions.It’s also because, many people, a lot of seats are occupied, so the seat is strained.To sum up, taking a seat is inevitable, but the study room is public and everyone is entitled to it.At the same time, it is the library that provides the resources to learn, so everyone wants a place.]]></content>
       <categories>
-        <category>t</category>
+        <category>writing</category>
       </categories>
       <tags>
         <tag>English</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Hello World]]></title>
+    <title><![CDATA[hi]]></title>
     <url>%2F2017%2F08%2F23%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
