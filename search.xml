@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[解决hexo博客的乱码问题]]></title>
+    <url>%2F2017%2F09%2F06%2F%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%B5%8B%E8%AF%95%2F</url>
+    <content type="text"><![CDATA[将博客文件保存为UTF-8即可解决问题。 方法： 1.将博客文件保存为UTF-8 用记事本打开本地的博客文件“xxx.md”，然后点“另存为”，“编码(E):”选择“UTF-8”， 点击“保存”，替换原文件。 2.重新生成，部署，博客乱码即消除。 hexo g hexo d]]></content>
+      <categories>
+        <category>写作</category>
+      </categories>
+      <tags>
+        <tag>乱码问题解决</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[My New Post]]></title>
     <url>%2F2017%2F08%2F31%2FMy-New-Post%2F</url>
     <content type="text"><![CDATA[Well, after a night of busyness, you go to bed at 12:00 p.m.Under the big trend, the postgraduate entrance examination has become popular.And the library has become the inevitable result.In the process of taking up the seat, there will be a variety of situations.For example, as far as I am concerned, 6 this morning arrived early and found that the book was cleared, which was very frustrating, so it was inevitable to look for the next place.B. After finding other places, he cleared away others’ books, which inevitably conflicts with others.When two people don’t agree with each other, it is the escalation of contradictions.It’s also because, many people, a lot of seats are occupied, so the seat is strained.To sum up, taking a seat is inevitable, but the study room is public and everyone is entitled to it.At the same time, it is the library that provides the resources to learn, so everyone wants a place.]]></content>

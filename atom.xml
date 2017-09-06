@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-01T13:46:35.394Z</updated>
+  <updated>2017-09-06T05:35:24.808Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,46 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>解决hexo博客的乱码问题</title>
+    <link href="http://yoursite.com/2017/09/06/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%B5%8B%E8%AF%95/"/>
+    <id>http://yoursite.com/2017/09/06/第一次测试/</id>
+    <published>2017-09-06T05:24:29.000Z</published>
+    <updated>2017-09-06T05:35:24.808Z</updated>
+    
+    <content type="html"><![CDATA[<p>将博客文件保存为UTF-8即可解决问题。
+  <br>方法：
+  <br> 1.将博客文件保存为UTF-8
+  <br> 用记事本打开本地的博客文件“xxx.md”，然后点“另存为”，“编码(E):”选择“UTF-8”，
+  <br>点击“保存”，替换原文件。
+  <br> 2.重新生成，部署，博客乱码即消除。</p>
+<p> hexo g
+  <br> hexo d</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;将博客文件保存为UTF-8即可解决问题。
+  &lt;br&gt;方法：
+  &lt;br&gt; 1.将博客文件保存为UTF-8
+  &lt;br&gt; 用记事本打开本地的博客文件“xxx.md”，然后点“另存为”，“编码(E):”选择“UTF-8”，
+  &lt;br&gt;点击“保存”，替换原文件。
+  &lt;br&gt;
+    
+    </summary>
+    
+      <category term="写作" scheme="http://yoursite.com/categories/%E5%86%99%E4%BD%9C/"/>
+    
+    
+      <category term="乱码问题解决" scheme="http://yoursite.com/tags/%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    
+  </entry>
+  
+  <entry>
     <title>My New Post</title>
     <link href="http://yoursite.com/2017/08/31/My-New-Post/"/>
     <id>http://yoursite.com/2017/08/31/My-New-Post/</id>
     <published>2017-08-31T09:55:51.000Z</published>
-    <updated>2017-09-01T13:46:35.394Z</updated>
+    <updated>2017-09-01T14:56:35.699Z</updated>
     
     <content type="html"><![CDATA[<p>Well, after a night of busyness, you go to bed at 12:00 p.m.Under the big trend,
   the postgraduate entrance examination has become popular.And the library has become
