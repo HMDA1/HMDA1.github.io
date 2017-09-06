@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[‘name’]]></title>
+    <url>%2F2017%2F09%2F06%2F%E2%80%98name%E2%80%99%2F</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[解决hexo博客的乱码问题]]></title>
     <url>%2F2017%2F09%2F06%2F%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%B5%8B%E8%AF%95%2F</url>
     <content type="text"><![CDATA[将博客文件保存为UTF-8即可解决问题。 方法： 1.将博客文件保存为UTF-8 用记事本打开本地的博客文件“xxx.md”，然后点“另存为”，“编码(E):”选择“UTF-8”， 点击“保存”，替换原文件。 2.重新生成，部署，博客乱码即消除。 hexo g hexo d]]></content>
