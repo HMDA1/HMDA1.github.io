@@ -252,7 +252,7 @@
 
                     <h1 class="post-title" itemprop="name headline">
 
-                      <a class="post-title-link" href="/2017/09/06/‘name’/" itemprop="url">‘name’</a>
+                      <a class="post-title-link" href="/2017/09/06/‘name’/" itemprop="url">ArcGIS制作放射状流向地图（Radial Flow Map）</a>
                     </h1>
 
                     <div class="post-meta">
@@ -267,6 +267,24 @@
                         <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-06T14:11:01+08:00">
                           2017-09-06
                         </time>
+
+                      </span>
+
+                      <span class="post-category">
+
+                        <span class="post-meta-divider">|</span>
+
+                        <span class="post-meta-item-icon">
+                          <i class="fa fa-folder-o"></i>
+                        </span>
+
+                        <span class="post-meta-item-text">分类于</span>
+
+                        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                          <a href="/categories/ArcGIS/" itemprop="url" rel="index">
+                            <span itemprop="name">ArcGIS</span>
+                          </a>
+                        </span>
 
                       </span>
 
@@ -300,6 +318,45 @@
                   </header>
 
                   <div class="post-body" itemprop="articleBody">
+
+                    <p>流向地图火了，因为Facebook的那张著名的友邻图，抑或因为《数据可视化之美》中介绍飞行模式的航线图，总之，流向地图以它特殊的可视化形式，直观地展示事物之间的联系，尤其在展示网络流向、贸易流向、迁徙路线等方面具有天然的优势。</p>
+                    <p>Flow maps - show the movement of some phenomenon, normally goods
+                      or people, from one place to another. Lines are used to symbolize
+                      the flow, typically varied in width to represent differences
+                      in the quantity of the flow.</p>
+                    <p>　　上面这段话是Flow Map的定义（Buckley,2013,AAG），流向地图的特点就在于展示移动的地理现象，利用线的粗细或是颜色来展示更多的信息。当我们惊叹于那优美的线条以及绚丽的可视化效果时，不由得会想到，怎么才能做出这么一张流向地图呢？ArcGIS是否能够快速的实现呢？</p>
+                    <pre><code>其实早在2011年，Esri的制图专家Mamata Akella就发表了一篇Blog，介绍在ArcGIS中实现一种流向地图的方法[1] ，来展示2011年Esri用户大会的参会者来源，如下图所示。
+![1](/ArcGIS制作放射状流向地图/1.png)
+</code></pre>
+                    <p>这里我们也以一个实例来尝试如何快速生成该类型的地图，在这个例子里，我们把帝都北京和其他各国家的首都连接起来，通过结果可以看到帝都与各首都之间航线的轨迹和距离，这里我们主要是利用ArcGIS的一个工具——XY
+                      to line。 </p>
+                    <p>数据准备：XY to line工具所需要的输入是一个表格数据（.xls,.csv,.txt,.dbf均可以），必需的四个字段是每个点对的XY起止坐标，如下图所示，XCoor为各首都的X坐标，YCoord为各首都的Y坐标，BJX为北京的X坐标，BJY为北京的Y坐标，这里采用的是WGS
+                      1984的坐标系统。
+                      <br>
+                      <img src="/ArcGIS制作放射状流向地图/2.png" alt="2">
+                      <br>数据处理：打开XY to line工具，设置如上图，在Line Type中有四个选项，这里我们选择的是GEODISIC，ID字段设置为大洲，目的是为了保留该字段，以便将来按大洲进行符号化。</p>
+                    <p>GEODESIC：测地线，椭球体表面上两点之间的最短连线</p>
+                    <p>GREAT_CIRCLE: 大圆航线，通过两航路点间的大圆圈线(该两航路点与地心在同一平面)</p>
+                    <p>RHUMB_LINE(loxodrome line): 等角航线：是地球表面上与经线相交成相同角度的曲线。在地球表面上除经线和纬线以外的等角航线，都是以极点为渐近点的螺旋曲线，在航海图（采用墨卡托投影）上又表现为直线</p>
+                    <p>NORMAL_SECTION:法截弧，A点的法线与B点确定的法截面与椭球相交的弧线</p>
+                    <p> 经过简单渲染，我们就得到了这样的地图：
+                      <br>
+                      <img src="/ArcGIS制作放射状流向地图/3.png" alt="3">
+                      <br> 偶尔换个视角也不错，例如我们把Data Frame的坐标系统换一换，再按大洲做个符号化：
+                      <br>
+                      <img src="/ArcGIS制作放射状流向地图/4.png" alt="4">
+                      <br>
+                      <img src="/ArcGIS制作放射状流向地图/5.png" alt="5">
+                      <br>
+                      <img src="/ArcGIS制作放射状流向地图/6.png" alt="6">
+                      <br>
+                      <img src="/ArcGIS制作放射状流向地图/7.png" alt="7">
+                    </p>
+                    <p> 参考文档：</p>
+                    <p>
+                      <a href="http://blogs.esri.com/esri/arcgis/2011/09/06/creating-radial-flow-maps-with-arcgis/"
+                                                                                                      target="_blank" rel="external">http://blogs.esri.com/esri/arcgis/2011/09/06/creating-radial-flow-maps-with-arcgis/</a>
+                    </p>
 
                   </div>
 
@@ -743,14 +800,14 @@
 
                 <div class="site-state-item site-state-categories">
                   <a href="/categories/index.html">
-                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
 
                 <div class="site-state-item site-state-tags">
                   <a href="/tags/index.html">
-                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
