@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-16T14:47:40.106Z</updated>
+  <updated>2017-09-16T14:54:32.268Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,14 +17,14 @@
   
   <entry>
     <title></title>
-    <link href="http://yoursite.com/2017/09/16/English-%E5%86%99%E4%BD%9C/"/>
-    <id>http://yoursite.com/2017/09/16/English-写作/</id>
-    <published>2017-09-16T14:30:17.000Z</published>
-    <updated>2017-09-16T14:47:40.106Z</updated>
+    <link href="http://yoursite.com/2017/09/16/English%20/"/>
+    <id>http://yoursite.com/2017/09/16/English /</id>
+    <published>2017-09-16T14:54:32.268Z</published>
+    <updated>2017-09-16T14:54:32.268Z</updated>
     
     <content type="html"><![CDATA[<hr>
-<p>title: English写作</p>
-<p>date: 2017-09-16 22:30:16</p>
+<p>title: English writing
+  <br>date: 2017-09-16 22:30:16</p>
 <p>tags: English topics
   <br>categories: - writing—</p>
 <p>Ideas for IELTS topics</p>
@@ -1601,11 +1601,11 @@
     <summary type="html">
     
       &lt;hr&gt;
-&lt;p&gt;title: English写作&lt;/p&gt;
-&lt;p&gt;date: 2017-09-16 22:30:16&lt;/p&gt;
+&lt;p&gt;title: English writing
+  &lt;br&gt;date: 2017-09-16 22:30:16&lt;/p&gt;
 &lt;p&gt;tags: English topics
   &lt;br&gt;categories: - writing—&lt;/p&gt;
-&lt;p&gt;Ideas for IELTS to
+&lt;p&gt;Ideas for IEL
     
     </summary>
     
