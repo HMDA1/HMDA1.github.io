@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-16T15:56:53.335Z</updated>
+  <updated>2017-09-23T15:20:44.271Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>English 写作</title>
+    <link href="http://yoursite.com/2017/09/23/English-%E5%86%99%E4%BD%9C/"/>
+    <id>http://yoursite.com/2017/09/23/English-写作/</id>
+    <published>2017-09-23T15:08:14.000Z</published>
+    <updated>2017-09-23T15:20:44.271Z</updated>
+    
+    <content type="html"><![CDATA[<p>写作范文:
+  <a href="http://writefix.com/?page_id=399" target="_blank" rel="external">http://writefix.com/?page_id=399</a>
+  <br>批改:
+  <a href="https://www.pigai.org/" target="_blank" rel="external">https://www.pigai.org/</a>
+</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;写作范文:
+  &lt;a href=&quot;http://writefix.com/?page_id=399&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://writefix.com/?page_id=399&lt;/a&gt;
+  &lt;br&gt;批改:
+  &lt;a hre
+    
+    </summary>
+    
+      <category term="writing" scheme="http://yoursite.com/categories/writing/"/>
+    
+    
+      <category term="写作网站" scheme="http://yoursite.com/tags/%E5%86%99%E4%BD%9C%E7%BD%91%E7%AB%99/"/>
+    
+  </entry>
   
   <entry>
     <title>E writing</title>
